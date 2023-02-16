@@ -20,5 +20,10 @@ while counter <5:
     elif usernumber>num:
         print("too high")
     elif usernumber==num:
-        print(" you win!")
         break        
+
+if usernumber==num:
+    print(" you win!")
+else:
+    print("Game Over! You lose! Correct answer is:")        
+print(num)    
